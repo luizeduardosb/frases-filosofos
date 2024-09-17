@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(68, 61, 74);
+    color: white;
+    padding: 0 15% 0 15%;
+}
+
+* {
+    color: white !important;
+}
+
+header {
+    margin-bottom: 4vh;
+}
+
+hr {
+    margin: 0;
+}
+
+.card {
+    background-color: rgb(68, 61, 74);
+    width: 60% !important;
+    margin-bottom: 3vh;
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.card img {
+    width: 30%;
+}
+
+.card-body {
+    width: 50%;
+    float: right;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: rgb(68, 61, 74) !important;
+}
+
+
+.form-control.me-2 {
+    background-color: rgb(68, 61, 74);
+    color: white;
+}
+
+.form-control::placeholder {
+    color: gray; /* Cor do texto do placeholder */
+}
+
+.form-control:focus::placeholder {
+    color: lightgray; 
+}
+
+
+.btn.btn-outline-success {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn:hover {
+    background-color: gray;
+}
